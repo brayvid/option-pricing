@@ -61,4 +61,4 @@ Asset tree:
          0         0         0         0   74.0818
          0         0         0         0   54.8812
 ```
-*Trees organized so that the element (i,j) in row i and column j branches into elements (2*i,j+1) and (2*i-1,j+1). Elements with i > 2^(j-1) are unused and ignored.*
+*Trees are organized so that the element (i,j) in row i and column j branches into elements (2*i,j+1) and (2*i-1,j+1). Elements with i > 2^(j-1) are unused and ignored.*
