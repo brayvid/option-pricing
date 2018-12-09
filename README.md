@@ -24,6 +24,7 @@ Call today:
 
    12.3877
 ```
+
 ```matlab
 put_tod = optionToday(o_prm, put);
 fprintf('Put today:\n\n')
@@ -34,6 +35,7 @@ Put today:
 
     9.4763
 ```
+
 ```matlab
 asset_tr = assetTree(s_prm);
 fprintf('Asset tree:\n\n')
