@@ -6,10 +6,17 @@ Developed from theory presented in "Option Trading: Pricing and Volatility Strat
 
 The function "permn.m" is copyright (c) 2016, Jos van der Geest: [permn - Mathworks.com](https://www.mathworks.com/matlabcentral/fileexchange/7147-permn-v-n-k "https://www.mathworks.com/matlabcentral/fileexchange/7147-permn-v-n-k").
 
+### Initialization
+```matlab
+clear
+clc
+addpath(genpath('functions'))
+```
+
 ### Adjusting parameters
 
 ```matlab
-r = 0.03;
+r = 0.03; % override defaults
 sigma = 0.28;
 run loadParams  % run after setting parameters
 ```
