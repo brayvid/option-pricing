@@ -1,6 +1,6 @@
 # Multi-Period Binomial Option Pricing
 
-A set of MATLAB functions for calculating option prices, along with several example visualization scripts.
+A set of MATLAB functions for calculating arbitrage-free option prices, along with several example visualization scripts.
 
 Developed from theory presented in "Option Trading: Pricing and Volatility Strategies and Techniques" by Euan Sinclair: [Option Trading - Amazon.com](http://a.co/d/b3Ki7BV "http://a.co/d/b3Ki7BV").
 
