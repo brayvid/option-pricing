@@ -4,9 +4,8 @@ clc
 addpath(genpath('functions'))
 
 % Override default parameters
-n = 5;
 r = 0.03;
-
+sigma = 0.28;
 % Run after setting parameters
 run loadParams
 

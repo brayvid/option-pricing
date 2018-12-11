@@ -20,15 +20,10 @@ for i = size(S,2):-1:1 % for each column of S
                if call
                    CorP(j,i) = max([S(j,i) - X,0]); % call
                else
-                   CorP(j,i) = max([X - S(j,i),0]); %put
-                   
+                   CorP(j,i) = max([X - S(j,i),0]); % put 
                end 
            else
-               if call
-                   CorP(j,i) = exp(-r*(i-1)*dT)*(p(i)* CorP(2*j-1, i+1) + (1-p(i))* CorP(2*j,i+1) ); % call
-               else
-                  CorP(j,i) = exp(-r*(i-1)*dT)*(p(i)* CorP(2*j-1, i+1) + (1-p(i))* CorP(2*j,i+1) ); %put
-               end
+               CorP(j,i) = exp(-r*(i-1)*dT)*(p(i)* CorP(2*j-1, i+1) + (1-p(i))* CorP(2*j,i+1) ); % same for call and put
            end
        end
     end  

@@ -18,7 +18,7 @@ if ~exist('sigma','var')
     sigma  = 0.3;
 end
 if ~exist('m','var')
-   m = ones(1,n);  
+   m = [1 1 1];  
 end
 
 % Calculated parameters

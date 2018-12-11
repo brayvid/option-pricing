@@ -1,4 +1,5 @@
-% Cox-Ross-Rubenstein parameters
+% Cox-Ross-Rubenstein formulas
+% change as necessary
 function [p, u, d] = getPUD(pud_params)
 [n, r, T, sigma] = pud_params{:};
 u = exp(sigma*sqrt(T/n)).*ones(n,1);
