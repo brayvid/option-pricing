@@ -2,7 +2,7 @@
 
 A set of MATLAB functions for calculating option prices, along with several examples of how the functions can be used.
 
-Developed from theory presented in [Option Trading](http://a.co/d/b3Ki7BV "Option Trading at Amazon.com") by Euan Sinclair:.
+Developed from theory presented in [Option Trading](http://a.co/d/b3Ki7BV "Option Trading at Amazon.com") by Euan Sinclair.
 
 The function "permn.m" is copyright (c) 2016, Jos van der Geest: [permn - Mathworks.com](https://www.mathworks.com/matlabcentral/fileexchange/7147-permn-v-n-k "https://www.mathworks.com/matlabcentral/fileexchange/7147-permn-v-n-k").
 
